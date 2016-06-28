@@ -1,0 +1,186 @@
+* {
+  font-family: calibri; }
+
+p {
+  font-size: 18px; }
+
+h2 {
+  margin: auto;
+  font-family: calibri;
+  font-size: 40px; }
+
+#header {
+  border: 5px solid black;
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-top: 20px;
+  padding-bottom: 70px;
+  padding-top: 70px;
+  text-align: center; }
+
+.title {
+  border: 4px solid black;
+  font-family: Calibri;
+  font-size: 40px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 500px; }
+
+.history {
+  margin-top: 200px;
+  margin-left: 175px;
+  margin-right: 175px;
+  margin-bottom: 200px; }
+
+#image1 {
+  border: 3px solid black;
+  border-radius: 30px;
+  float: left;
+  height: 400px;
+  width: 600px;
+  box-shadow: 10px 10px 5px #888888; }
+
+#blurb {
+  height: 400px;
+  margin-left: 640px;
+  text-align: center; }
+
+.exhibit {
+  margin-top: 200px;
+  margin-left: 175px;
+  margin-right: 175px;
+  margin-bottom: 200px; }
+
+#image2 {
+  border: 3px solid black;
+  border-radius: 30px;
+  float: right;
+  height: 400px;
+  width: 600px;
+  box-shadow: 10px 10px 5px #888888; }
+
+#blurb-2 {
+  height: 400px;
+  margin-right: 640px;
+  text-align: center; }
+
+#blurb-2 > a {
+  border: 2px solid black;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  text-decoration: none; }
+
+#blurb-2 a:hover {
+  background-color: black;
+  border: 2px solid grey;
+  color: white; }
+
+#gradient {
+  background: beige;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, red, yellow);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, red, yellow);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, red, yellow);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom, white, beige);
+  /* Standard syntax */
+  height: 400px;
+  margin-left: -8px;
+  margin-right: -8px; }
+
+#recipe {
+  background: beige;
+  margin-top: -40px;
+  margin-left: -8px;
+  margin-right: -8px;
+  text-align: center; }
+
+table {
+  box-shadow: 10px 10px 5px #888888;
+  margin: auto;
+  margin-top: 150px; }
+
+td {
+  background-size: cover;
+  border: 2px solid black;
+  color: transparent;
+  font-size: 24px;
+  height: 100px;
+  width: 300px;
+  text-align: center;
+  transition: height 1s;
+  opacity: 0.5; }
+
+td:hover {
+  color: black;
+  opacity: 1;
+  height: 300px; }
+
+#instructions {
+  margin-top: 300px; }
+
+ol > li {
+  margin: 0 auto;
+  width: 400px; }
+
+.instruction-image {
+  border: 3px solid black;
+  border-radius: 30px;
+  height: 300px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  width: 500px;
+  box-shadow: 10px 10px 5px #888888; }
+
+#one {
+  background-image: url("img/groundbeef.jpg"); }
+
+#two {
+  background-image: url("img/italiansausage.jpg"); }
+
+#three {
+  background-image: url("http://www.melaniecooks.com/wp-content/uploads/2011/06/onion-chop6.jpg"); }
+
+#four {
+  background-image: url("http://crazykoreancooking.com/sites/default/files/Garlic-chopped-600.jpg?1451588259"); }
+
+#five {
+  background-image: url("http://www.medicalnewstoday.com/content/images/articles/281/281623/salt-on-a-teaspoon.jpg"); }
+
+#six {
+  background-image: url("http://rainydayfoods.com/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/p/e/pepper_1.jpg"); }
+
+#seven {
+  background-image: url("http://www.savoryspiceshop.com/content/mercury_modules/cart/items/2/8/6/2861/parsley-flakes-1.jpg"); }
+
+#eight {
+  background-image: url("http://www.viragcorporation.com/wp-content/uploads/2015/08/oregano-greek-organic-1.jpg"); }
+
+#nine {
+  background-image: url("http://www.savoryspiceshop.com/content/mercury_modules/cart/items/2/7/0/2702/california-basil-1.jpg"); }
+
+#ten {
+  background-image: url("http://www.moes.com/public/images/food/ingredients/diced-tomatoes.jpg"); }
+
+#eleven {
+  background-image: url("http://images.wisegeek.com/cottage-cheese-in-ramiken.jpg"); }
+
+#twelve {
+  background-image: url("http://www.medicalnewstoday.com/content/images/articles/283/283659/eggs.jpg"); }
+
+#thirteen {
+  background-image: url("http://www.dairyfoods.com/ext/resources/Issues/August_2013/Dairiconcepts-body.jpg"); }
+
+#fourteen {
+  background-image: url("http://foodsogoodmall.com/wp-content/uploads/2015/02/mozzarella-cheese-edited.jpg"); }
+
+#fifteen {
+  background-image: url("http://www.finecooking.com/assets/uploads/posts/5474/ING-lasagne-noodles-no-boil_sql.jpg"); }
+
+/*# sourceMappingURL=output.css.map */
