@@ -2,46 +2,46 @@
 <html>
 
 <head>
-	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+	<link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 	<title> My Favorite Recipe </title>
 </head>
 
 <body>
 	
-	<div id="header">
+	<div class="header layout-header">
 		<div id="title-box">
 			<h1 class="title">MY FAVORITE RECIPE</h1>
 		</div>
 		<ul>
-			<li><a class="style-1-button" href="">INGREDIENTS</a></li>
-			<li><a class="style-1-button" href="">INSTRUCTIONS</a></li>
-			<li><a class="style-1-button" id="hide">HIDE/SHOW PICTURES</a></li>
+			<li><a class="button-style-1" href="#ingredients">INGREDIENTS</a></li>
+			<li><a class="button-style-1" href="#instructions">INSTRUCTIONS</a></li>
+			<li><a class="button-style-1" id="hide">HIDE/SHOW PICTURES</a></li>
 		</ul>
 	</div>
 
 	<section id="summary">
 
-		<div class="history">
+		<div class="exhibit layout-exhibit-img-left">
 
-			<img id="image1"src="http://www.cookingclassy.com/wp-content/uploads/2013/03/lasagna15.jpg"/>
+			<img class="exhibit-image"src="http://www.cookingclassy.com/wp-content/uploads/2013/03/lasagna15.jpg"/>
 		
-			<div id="blurb">
+			<div class="exhibit-blurb">
 				<h2> History of Lasagna </h2>
 				<p> Many historians have their own theories on the origins of lasagna. While some versions of the story may bear certain elements of truth, many don't know that lasagna was actually invented by the Egyptians to worship their gods. Although a there is a lot of debate on the exact date lasagna was invented, many have agreed to a general consensus that lasagna definitively existed by the year <strong>2300 BCE</strong>. Specifically, this dish was made as an offering to the mighty cat god, named Guharfeelduh, at the sunrise of the first day of the new week. The egyptians believe that the offering would ward off evil spirit and promote health.</p>
 			</div>
 
 		</div>
 
-		<div class="exhibit">
+		<div class="exhibit layout-exhibit-img-right">
 
-			<img id="image2" src="http://previews.123rf.com/images/swisshippo/swisshippo1107/swisshippo110700025/9897627-Egyptian-hieroglyphs-on-the-wall-Stock-Photo-egyptian-hieroglyphics-hieroglyph.jpg"/>
+			<img class="exhibit-image" src="http://previews.123rf.com/images/swisshippo/swisshippo1107/swisshippo110700025/9897627-Egyptian-hieroglyphs-on-the-wall-Stock-Photo-egyptian-hieroglyphics-hieroglyph.jpg"/>
 
-			<div id="blurb-2">
+			<div class="exhibit-blurb">
 				<h2> How Do I Make It? </h2>
 				<p> Unfortunately, the true recipe of lasagna has been lost to the passage of time. Thankfully, through the combined efforts of many historians, linguists, anthropologists, and scientists, modern society has managed to piece together bits of information on the original dish. The image to the left depicts <strong>"The Lasagna Stone"</strong>, an ancient tablet of hieroglyphs which modern technology has revealed to be the ancient recipe for lasagna. However, we'll be sticking to a modern variation in today's recipe from food.com, aptly titled "Absolute Best Ever Lasagna". You can click below to go the recipe directly. </p> <br><br>
-			<a class="style-1-button" href="http://www.food.com/recipe/absolute-best-ever-lasagna-28768">CLICK HERE FOR RECIPE</a>
+			<a class="button-style-1" href="http://www.food.com/recipe/absolute-best-ever-lasagna-28768">CLICK HERE FOR RECIPE</a>
 			</div>
 
 		</div>
@@ -53,7 +53,7 @@
 
 <div id="recipe">
 
-	<section id="ingredients">
+	<section name = "ingredients" id="ingredients">
 
 		<h2> Ingredients </h2>
 	
@@ -89,19 +89,19 @@
 
 
 
-	<section id="instructions">
+	<section name="instructions" id="instructions">
 
 		<h2> Preparation Instructions </h2>
 
-	<div id = "instruction-container" >
+	<div class = "instruction-container layout-carousel">
 
-		<div class="instruction-button" id="leftbutton">
+		<div class="carousel-button carousel-button-left">
 
 		<span> <strong> < </strong> </span>
 
 		</div>
 
-		<div id="container">
+		<div class="carousel-container">
 
 			<div class="instruction-image">
 				<img class="img-small" src="img/step1.jpg"/>
@@ -147,7 +147,7 @@
 		
 		</div>
 
-		<div class="instruction-button" id="rightbutton">
+		<div class="carousel-button carousel-button-right">
 
 			<span> <strong> > </strong> </span>
 
@@ -155,23 +155,15 @@
 
 	</div>
 
-		<div id="slideshow-blurb">
-
-		</div>
-
 	</section>
 
-		<div class="exhibit">
+		<div class="exhibit exhibit-footer">
 
 			<img src="http://3.bp.blogspot.com/-_a99lzvZn-8/UvdCdzwbVQI/AAAAAAAAAX8/HoauOMYi6Yk/s1600/comiks3.png"/>
 
-			<h5 class="subtitle"><em>A comic depicting the daily struggles of life without lasagna.</em></h5>
+			<h3 class="subtitle"><em>A comic depicting the daily struggles of life without lasagna.</em></h5>
 
 		</div>
-
-	<div id="footer">
-	</div>
-
 
 </div>
 

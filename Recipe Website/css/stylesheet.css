@@ -244,57 +244,57 @@ td:hover {
 }
 
 #two {
-	background-image: url("img/italiansausage.jpg");
+	background-image: url("../img/italiansausage.jpg");
 }
 
 #three {
-	background-image: url("http://www.melaniecooks.com/wp-content/uploads/2011/06/onion-chop6.jpg");
+	background-image: url("../img/onion.jpg");
 }
 
 #four {
-	background-image: url("http://crazykoreancooking.com/sites/default/files/Garlic-chopped-600.jpg?1451588259");
+	background-image: url("../img/garlic.jpg");
 }
 
 #five {
-	background-image: url("http://www.medicalnewstoday.com/content/images/articles/281/281623/salt-on-a-teaspoon.jpg");
+	background-image: url("../img/salt.jpg");
 }
 
 #six {
-	background-image: url("http://rainydayfoods.com/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/p/e/pepper_1.jpg");
+	background-image: url("../img/pepper.jpg");
 }
 
 #seven {
-	background-image: url("http://www.savoryspiceshop.com/content/mercury_modules/cart/items/2/8/6/2861/parsley-flakes-1.jpg");
+	background-image: url("../img/parsely.jpg");
 }
 
 #eight {
-	background-image: url("http://www.viragcorporation.com/wp-content/uploads/2015/08/oregano-greek-organic-1.jpg");
+	background-image: url("../img/oregano.jpg");
 }
 
 #nine {
-	background-image: url("http://www.savoryspiceshop.com/content/mercury_modules/cart/items/2/7/0/2702/california-basil-1.jpg");
+	background-image: url("../img/basil.jpg");
 }
 
 #ten {
-	background-image: url("http://www.moes.com/public/images/food/ingredients/diced-tomatoes.jpg");
+	background-image: url("../img/tomatoes.jpg");
 }
 
 #eleven {
-	background-image: url("http://images.wisegeek.com/cottage-cheese-in-ramiken.jpg");
+	background-image: url("../img/cottagecheese.jpg");
 }
 
 #twelve {
-	background-image: url("http://www.medicalnewstoday.com/content/images/articles/283/283659/eggs.jpg");
+	background-image: url("../img/eggs.jpg");
 }
 
 #thirteen {
-	background-image: url("http://www.dairyfoods.com/ext/resources/Issues/August_2013/Dairiconcepts-body.jpg");
+	background-image: url("../img/cheese.jpg");
 }
 
 #fourteen {
-	background-image: url("http://foodsogoodmall.com/wp-content/uploads/2015/02/mozzarella-cheese-edited.jpg");
+	background-image: url("../img/parmesan.jpg");
 }
 
 #fifteen {
-	background-image: url("http://www.finecooking.com/assets/uploads/posts/5474/ING-lasagne-noodles-no-boil_sql.jpg");
+	background-image: url("../img/noodles.jpg");
 }
